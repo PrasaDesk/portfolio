@@ -1,0 +1,45 @@
+[
+    {
+        "category": "Frontend",
+        "items": [
+            "React",
+            "TypeScript",
+            "Next.js",
+            "Tailwind CSS",
+            "Redux Toolkit",
+            "Framer Motion"
+        ]
+    },
+    {
+        "category": "Backend",
+        "items": [
+            "Node.js",
+            "Python",
+            "Django",
+            "FastAPI",
+            "Express",
+            "GraphQL"
+        ]
+    },
+    {
+        "category": "Database & Cloud",
+        "items": [
+            "PostgreSQL",
+            "MongoDB",
+            "AWS",
+            "Docker",
+            "Kubernetes",
+            "Redis"
+        ]
+    },
+    {
+        "category": "Healthcare Standards",
+        "items": [
+            "HL7",
+            "FHIR",
+            "HIPAA Compliance",
+            "DICOM",
+            "Telemedicine APIs"
+        ]
+    }
+]

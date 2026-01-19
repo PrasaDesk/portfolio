@@ -1,0 +1,93 @@
+[
+    {
+        "id": 1,
+        "title": "Building HIPAA-Compliant Healthcare Apps with React and Node.js",
+        "excerpt": "A comprehensive guide to developing secure, compliant healthcare applications using modern web technologies.",
+        "date": "2024-12-15",
+        "readTime": "12 min read",
+        "category": "Healthcare Tech",
+        "tags": [
+            "HIPAA",
+            "React",
+            "Node.js",
+            "Security"
+        ],
+        "image": "/blog/hipaa-guide.jpg",
+        "featured": true
+    },
+    {
+        "id": 2,
+        "title": "Microservices Architecture for Telemedicine Platforms",
+        "excerpt": "Lessons learned from scaling a telemedicine platform to handle millions of consultations.",
+        "date": "2024-11-28",
+        "readTime": "10 min read",
+        "category": "Architecture",
+        "tags": [
+            "Microservices",
+            "Scalability",
+            "Telemedicine"
+        ],
+        "image": "/blog/microservices.jpg",
+        "featured": true
+    },
+    {
+        "id": 3,
+        "title": "Implementing Real-time Patient Monitoring with WebSockets",
+        "excerpt": "How to build real-time vital signs monitoring systems with WebSocket technology.",
+        "date": "2024-10-20",
+        "readTime": "8 min read",
+        "category": "Real-time Systems",
+        "tags": [
+            "WebSockets",
+            "Real-time",
+            "IoT"
+        ],
+        "image": "/blog/websockets.jpg",
+        "featured": false
+    },
+    {
+        "id": 4,
+        "title": "AI-Powered Diagnosis: Integrating Machine Learning Models",
+        "excerpt": "Best practices for integrating ML models into production healthcare applications.",
+        "date": "2024-09-10",
+        "readTime": "15 min read",
+        "category": "AI/ML",
+        "tags": [
+            "AI",
+            "Machine Learning",
+            "Python"
+        ],
+        "image": "/blog/ai-diagnosis.jpg",
+        "featured": false
+    },
+    {
+        "id": 5,
+        "title": "Optimizing React Performance in Large-Scale Applications",
+        "excerpt": "Advanced techniques for maintaining 60fps in complex healthcare dashboards.",
+        "date": "2024-08-05",
+        "readTime": "11 min read",
+        "category": "Performance",
+        "tags": [
+            "React",
+            "Performance",
+            "Optimization"
+        ],
+        "image": "/blog/react-perf.jpg",
+        "featured": false
+    },
+    {
+        "id": 6,
+        "title": "Zero-Downtime Deployment Strategies for Healthcare Systems",
+        "excerpt": "Ensuring continuous availability in mission-critical healthcare applications.",
+        "date": "2024-07-18",
+        "readTime": "9 min read",
+        "category": "DevOps",
+        "tags": [
+            "DevOps",
+            "CI/CD",
+            "Deployment"
+        ],
+        "image": "/blog/deployment.jpg",
+        "featured": false
+    }
+]

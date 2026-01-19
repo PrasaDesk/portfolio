@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "title": "AWS Certified Solutions Architect - Professional",
+        "issuer": "Amazon Web Services",
+        "date": "2024-08",
+        "credentialId": "AWS-PSA-2024-XYZ123",
+        "image": "/certs/aws-pro.png",
+        "skills": [
+            "Cloud Architecture",
+            "AWS",
+            "Scalability"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Certified Kubernetes Administrator (CKA)",
+        "issuer": "Cloud Native Computing Foundation",
+        "date": "2024-05",
+        "credentialId": "CKA-2024-ABC789",
+        "image": "/certs/cka.png",
+        "skills": [
+            "Kubernetes",
+            "Container Orchestration",
+            "DevOps"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "HIPAA Compliance Professional",
+        "issuer": "Healthcare Compliance Association",
+        "date": "2024-02",
+        "credentialId": "HCP-2024-DEF456",
+        "image": "/certs/hipaa.png",
+        "skills": [
+            "HIPAA",
+            "Healthcare Security",
+            "Compliance"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "MongoDB Certified Developer",
+        "issuer": "MongoDB University",
+        "date": "2023-11",
+        "credentialId": "MDB-DEV-2023-GHI789",
+        "image": "/certs/mongodb.png",
+        "skills": [
+            "MongoDB",
+            "NoSQL",
+            "Database Design"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "React Advanced Patterns",
+        "issuer": "Frontend Masters",
+        "date": "2023-09",
+        "credentialId": "FM-REACT-2023-JKL012",
+        "image": "/certs/react.png",
+        "skills": [
+            "React",
+            "Advanced Patterns",
+            "Performance"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "HL7 FHIR Fundamentals",
+        "issuer": "HL7 International",
+        "date": "2023-06",
+        "credentialId": "HL7-FHIR-2023-MNO345",
+        "image": "/certs/fhir.png",
+        "skills": [
+            "HL7 FHIR",
+            "Healthcare Interoperability",
+            "Standards"
+        ]
+    }
+]

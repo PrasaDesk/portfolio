@@ -1,0 +1,23 @@
+[
+    {
+        "id": "1",
+        "role": "Lead Fullstack Engineer",
+        "company": "HealthTech Solutions Inc.",
+        "period": "2021 - Present",
+        "description": "Leading a team of 10+ engineers in developing next-gen EMR systems. Architected a microservices-based backend that improved system uptime by 99.9%. Spearheaded the migration of legacy monolithic apps to cloud-native architectures."
+    },
+    {
+        "id": "2",
+        "role": "Senior Software Developer",
+        "company": "Innovate Care System",
+        "period": "2018 - 2021",
+        "description": "Developed and maintained HIPAA-compliant patient portals. Integrated third-party payment gateways and insurance verification APIs, reducing administrative overhead by 40%."
+    },
+    {
+        "id": "3",
+        "role": "Fullstack Developer",
+        "company": "MedLife Startups",
+        "period": "2015 - 2018",
+        "description": "Built responsive web applications for pharmacy management using React and Node.js. Collaborated with UX designers to improve patient booking workflows."
+    }
+]

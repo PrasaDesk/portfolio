@@ -1,0 +1,49 @@
+[
+    {
+        "id": "1",
+        "title": "MediConnect Pro",
+        "description": "A comprehensive telemedicine platform connecting patients with specialists. Features real-time video consultations, secure messaging, and integrated prescription management.",
+        "techStack": [
+            "React",
+            "Node.js",
+            "WebRTC",
+            "MongoDB",
+            "Socket.io"
+        ],
+        "domain": "Healthcare",
+        "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=1600",
+        "link": "#",
+        "repo": "#"
+    },
+    {
+        "id": "2",
+        "title": "NeuroScan AI Analysis",
+        "description": "An AI-powered diagnostic tool for analyzing MRI scans to detect early signs of neurological disorders. Utilizes Python-based deep learning models integrated with a web dashboard.",
+        "techStack": [
+            "Python",
+            "TensorFlow",
+            "FastAPI",
+            "React",
+            "PostgreSQL"
+        ],
+        "domain": "Healthcare AI",
+        "image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&q=80&w=1600",
+        "link": "#",
+        "repo": "#"
+    },
+    {
+        "id": "3",
+        "title": "PharmaTrack Logistics",
+        "description": "Supply chain management system for pharmaceutical distribution. Ensures cold-chain compliance and real-time tracking of sensitive medication deliveries.",
+        "techStack": [
+            "Next.js",
+            "AWS IoT",
+            "DynamoDB",
+            "Tailwind CSS"
+        ],
+        "domain": "Logistics",
+        "image": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&q=80&w=1600",
+        "link": "#",
+        "repo": "#"
+    }
+]

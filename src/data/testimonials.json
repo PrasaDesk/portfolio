@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Dr. Sarah Mitchell",
+        "role": "CTO, HealthTech Solutions",
+        "company": "HealthTech Solutions",
+        "image": "/testimonials/sarah.jpg",
+        "content": "Working with this developer transformed our patient management system. Their expertise in HIPAA compliance and scalable architecture was invaluable. Delivered a telemedicine platform that handles 10k+ daily consultations flawlessly.",
+        "rating": 5,
+        "date": "2024-11"
+    },
+    {
+        "id": 2,
+        "name": "Michael Chen",
+        "role": "Product Manager, MediCore",
+        "company": "MediCore",
+        "image": "/testimonials/michael.jpg",
+        "content": "Exceptional full-stack developer with deep healthcare domain knowledge. Built our AI-powered diagnostic tool that reduced diagnosis time by 40%. Their code quality and attention to security standards is outstanding.",
+        "rating": 5,
+        "date": "2024-09"
+    },
+    {
+        "id": 3,
+        "name": "Emily Rodriguez",
+        "role": "VP Engineering, CareConnect",
+        "company": "CareConnect",
+        "image": "/testimonials/emily.jpg",
+        "content": "A true technical leader. Led our migration to microservices architecture while maintaining zero downtime. Their mentorship elevated our entire engineering team's capabilities.",
+        "rating": 5,
+        "date": "2024-06"
+    },
+    {
+        "id": 4,
+        "name": "Dr. James Patterson",
+        "role": "Chief Medical Officer",
+        "company": "Digital Health Innovations",
+        "image": "/testimonials/james.jpg",
+        "content": "Bridges the gap between technology and healthcare beautifully. Developed an EHR system that clinicians actually love using. Rare combination of technical excellence and user empathy.",
+        "rating": 5,
+        "date": "2024-03"
+    }
+]

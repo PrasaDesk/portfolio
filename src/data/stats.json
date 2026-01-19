@@ -1,0 +1,88 @@
+{
+    "github": {
+        "totalRepos": 47,
+        "totalStars": 1243,
+        "totalForks": 312,
+        "contributions": 2847
+    },
+    "achievements": [
+        {
+            "id": 1,
+            "title": "10k+ Users Served",
+            "description": "Healthcare platforms serving over 10,000 daily active users",
+            "icon": "users",
+            "value": "10,000+",
+            "color": "primary"
+        },
+        {
+            "id": 2,
+            "title": "99.9% Uptime",
+            "description": "Maintained across all production healthcare systems",
+            "icon": "activity",
+            "value": "99.9%",
+            "color": "success"
+        },
+        {
+            "id": 3,
+            "title": "Zero Security Breaches",
+            "description": "Perfect security record across 5+ years",
+            "icon": "shield",
+            "value": "0",
+            "color": "warning"
+        },
+        {
+            "id": 4,
+            "title": "15+ Projects Delivered",
+            "description": "Successfully launched healthcare applications",
+            "icon": "rocket",
+            "value": "15+",
+            "color": "accent"
+        }
+    ],
+    "techTimeline": [
+        {
+            "year": "2024",
+            "title": "AI & Cloud Native",
+            "technologies": [
+                "Next.js 14",
+                "Python ML",
+                "Kubernetes",
+                "Terraform"
+            ],
+            "description": "Leading AI-powered healthcare solutions with cloud-native architecture"
+        },
+        {
+            "year": "2023",
+            "title": "Microservices & Scale",
+            "technologies": [
+                "React 18",
+                "Node.js",
+                "Docker",
+                "AWS"
+            ],
+            "description": "Architected scalable microservices for telemedicine platforms"
+        },
+        {
+            "year": "2022",
+            "title": "Full-Stack Mastery",
+            "technologies": [
+                "React",
+                "Express",
+                "MongoDB",
+                "PostgreSQL"
+            ],
+            "description": "Built comprehensive healthcare management systems"
+        },
+        {
+            "year": "2021",
+            "title": "Healthcare Entry",
+            "technologies": [
+                "JavaScript",
+                "Python",
+                "REST APIs",
+                "SQL"
+            ],
+            "description": "Started specializing in healthcare technology solutions"
+        }
+    ]
+}
