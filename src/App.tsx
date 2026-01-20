@@ -34,7 +34,7 @@ function HomePage() {
 function App() {
   return (
     <ThemeProvider>
-      <Router>
+      <Router basename="/portfolio">
         <Layout>
           <Routes>
             <Route path={APP_ROUTES.HOME} element={<HomePage />} />
