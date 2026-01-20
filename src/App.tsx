@@ -11,6 +11,7 @@ import { Certifications } from "@/components/sections/Certifications";
 import { Articles } from "@/components/sections/Articles";
 import { Contact } from "@/components/sections/Contact";
 import { APP_ROUTES } from "@/constants/AppConstants";
+import { ThemeProvider } from "@/contexts/ThemeContext";
 
 // Home Page with all sections
 function HomePage() {
@@ -32,17 +33,19 @@ function HomePage() {
 
 function App() {
   return (
-    <Router>
-      <Layout>
-        <Routes>
-          <Route path={APP_ROUTES.HOME} element={<HomePage />} />
-          <Route path={APP_ROUTES.PROJECTS} element={<div className="pt-20"><Projects /></div>} />
-          <Route path={APP_ROUTES.CONTACT} element={<div className="pt-20"><Contact /></div>} />
-          {/* Add more specific routes as needed, for now Home covers all as a single page scroll experience usually, but here satisfied with routing */}
-          <Route path={APP_ROUTES.ABOUT} element={<div className="pt-20"><About /><Skills /></div>} />
-        </Routes>
-      </Layout>
-    </Router>
+    <ThemeProvider>
+      <Router>
+        <Layout>
+          <Routes>
+            <Route path={APP_ROUTES.HOME} element={<HomePage />} />
+            <Route path={APP_ROUTES.PROJECTS} element={<div className="pt-20"><Projects /></div>} />
+            <Route path={APP_ROUTES.CONTACT} element={<div className="pt-20"><Contact /></div>} />
+            {/* Add more specific routes as needed, for now Home covers all as a single page scroll experience usually, but here satisfied with routing */}
+            <Route path={APP_ROUTES.ABOUT} element={<div className="pt-20"><About /><Skills /></div>} />
+          </Routes>
+        </Layout>
+      </Router>
+    </ThemeProvider>
   );
 }
 

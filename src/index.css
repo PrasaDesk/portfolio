@@ -46,6 +46,53 @@
     --chart-5: 27 87% 67%;
   }
 
+  .light {
+    /* Premium Light Theme - Clean Healthcare Professional with Better Contrast */
+    --background: 210 20% 98%;
+    /* Soft off-white with slight blue tint */
+    --foreground: 222 47% 15%;
+    /* Very dark navy for excellent text contrast */
+
+    --card: 0 0% 100%;
+    /* Pure white for cards */
+    --card-foreground: 222 47% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 15%;
+
+    --primary: 180 85% 40%;
+    /* Slightly darker teal for better visibility on light backgrounds */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 30% 94%;
+    /* Soft blue-gray with more saturation */
+    --secondary-foreground: 222 47% 15%;
+
+    --muted: 210 30% 94%;
+    --muted-foreground: 215 20% 40%;
+    /* Darker muted text for better readability */
+
+    --accent: 180 85% 40%;
+    /* Matching primary for consistency */
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 214 25% 85%;
+    /* More visible borders */
+    --input: 214 25% 90%;
+    /* Slightly darker input backgrounds */
+    --ring: 180 85% 40%;
+
+    /* Charts for data vis if needed */
+    --chart-1: 180 85% 40%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 50%;
+    --chart-4: 43 74% 60%;
+    --chart-5: 27 87% 60%;
+  }
+
   * {
     @apply border-border;
   }
@@ -82,7 +129,7 @@
     @apply bg-secondary/30 backdrop-blur-md border border-white/10 shadow-xl;
   }
 
-  /* Grid pattern */
+  /* Grid pattern - Dark theme */
   .bg-grid-white\/\[0\.02\] {
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
       linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
@@ -93,6 +140,24 @@
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
       linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
     background-size: 40px 40px;
+  }
+
+  /* Grid pattern - Light theme */
+  .light .bg-grid-white\/\[0\.02\] {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.03) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(0, 0, 0, 0.03) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+
+  .light .bg-grid-white\/\[0\.05\] {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.06) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(0, 0, 0, 0.06) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+
+  /* Light theme glass card */
+  .light .glass-card {
+    @apply bg-white/60 backdrop-blur-md border border-black/10 shadow-xl;
   }
 }
 
